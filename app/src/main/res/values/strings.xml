@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Praktikum Week1</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="hello_users">Hello, Users!</string>
+    <string name="status_active">Status: Active</string>
+    <string name="input_name">Input Name</string>
+    <string name="show_toast">Show Toast</string>
+</resources>
