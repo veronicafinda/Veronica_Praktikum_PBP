@@ -22,7 +22,8 @@
             android:background="#3DDC84"
             android:foreground="#37C677"
             android:src="@mipmap/ic_launcher_round"
-            android:contentDescription="@string/profile_photo"/>
+            android:contentDescription="@string/profile_photo"
+            tools:ignore="ContentDescription, ImageContrasCheck"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,32 +50,32 @@
 
     <EditText
         android:id="@+id/etNama"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:hint="@string/input_name"
         android:inputType="text"
-        tools:ignore="Autofill" />
+        tools:ignore="Autofill, TextFieldSize" />
 
     <Button
         android:id="@+id/btnToast"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="@string/show_toast" />
 
     <Button
         android:id="@+id/btnForm"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Open Form (Explicit Intent)" />
+        android:text="@string/open_form_explicit_intent" />
 
     <Button
         android:id="@+id/btnBrowser"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Open Website (Implicit Intent) " />
+        android:text="@string/open_website_implicit_intent" />
 
 </LinearLayout>
